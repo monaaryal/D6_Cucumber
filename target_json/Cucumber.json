@@ -1,0 +1,49 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "checking pre condition,action and results",
+        "description": "",
+        "id": "login-page;checking-pre-condition,action-and-results",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "user is on SDETtraining.com home page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "user clicks log in button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "user is on  login.page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "login Page",
+    "description": "In order to test login page\r\nAs a registered user\r\nI want to specify the login conditions",
+    "id": "login-page",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]
